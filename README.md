@@ -32,8 +32,12 @@ When I enter my email address
 
 Then this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 
-![image](https://github.com/casanaa/readme-something/assets/133182324/65aff3b7-aac3-4fe6-a029-5b09c9a48051)
-
 When I click on the links in the Table of Contents
 
 Then I am taken to the corresponding section of the README
+
+![image](https://github.com/casanaa/readme-something/assets/133182324/65aff3b7-aac3-4fe6-a029-5b09c9a48051)
+
+![image](https://github.com/casanaa/readme-something/assets/133182324/a268046d-0498-4ee5-847c-0a7af2395b04)
+
+
