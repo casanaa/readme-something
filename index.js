@@ -84,7 +84,7 @@ const questions = [
 inquirer
 .prompt(questions)
 .then((answers) =>  {
-    const markdown = getMarkdown(answers);
+    const generateMarkdown = markdown(answers);
     
 fs.writeFile('README.md', markdown, (err) => {
     if (err) {
@@ -133,12 +133,8 @@ const generateMarkdown = (answers) => {
     ${email} 
     * Please email me with any questions you may have. 
 `;
-}
 
-// TODO: Create a function to initialize app
-function init() { 
-    askQuestions();
-};
 
 // Function call to initialize app
 init();
+}
